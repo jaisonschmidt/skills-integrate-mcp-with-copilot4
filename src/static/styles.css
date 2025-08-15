@@ -1,3 +1,21 @@
+/* Estilo para o campo de busca de email do usuário */
+input#user-search-input,
+.user-search-input {
+  border: 1.5px solid #bdbdbd;
+  border-radius: 18px;
+  padding: 7px 14px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+  box-shadow: 0 1px 4px rgba(26,35,126,0.06);
+  background: #fafbff;
+  margin-top: 4px;
+}
+
+#user-search-input:focus {
+  border-color: #1a237e;
+  background: #fff;
+}
 * {
   box-sizing: border-box;
   margin: 0;
